@@ -1,0 +1,149 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(sp.jpg);
+    background-color:bisque;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.navbar{
+    background-color:bisque;
+    display: flex;
+    margin-bottom: 50px;
+    position:sticky;
+    top:0;
+    padding:0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:color 8s;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+}
+.list{
+    background-color:beige;
+    font-style: italic;
+}
+.list1{
+    background-color:beige;
+    font-style: italic;
+}
+.list2{
+    background-color:beige;
+    font-style: italic;
+}
+.listitem{
+    background-color:beige;
+    font-style: italic;
+}
+.calc{
+    background-color: beige;
+    font-style: italic;
+}
+
+h1{
+    color:rgb(7, 7, 7);
+    font-size:40;
+    animation:color 2s;
+}
+h2{
+    color:rgb(5, 5, 5);
+    font-size:40;
+}
+h3{
+    color:rgb(10, 10, 10);
+    font-size:40;
+}
+h4{
+    color:rgb(2, 2, 2);
+    font-size:40;
+}
+P{
+    color:black;
+    font-size: 40;
+}
+.navbar li{
+    cursor:pointer;
+}
+.navbar li:hover{
+    transform: translateY(-5px);
+    transition: 3s ease;
+    color:red
+}
+img:hover{
+transform: scale(110%);
+transition:2s ease;
+border-radius: 10cm;
+border-style:dotted ;
+z-index: 1;
+}
+form{
+    background-color:rgb(134, 106, 68);
+    border: solid 2px black;
+    width: 450px;
+    padding: 20px;
+   
+    justify-content:center;
+    align-items:center;
+    font-style: oblique;
+    background-color:rgb(134, 106, 68);
+    animation:s 10s;
+}
+button{
+    margin-top:10px;
+    width:100px;
+    hieght:100px;
+    font: size 20px; ;
+    border-radius: 15px;      
+                       
+}
+.aboutme{
+    width:500px;
+
+}
+ .details1{
+    background-color: rgb(134, 106, 68);
+   
+ }
+  .details2{
+    background-color:rgb(134, 106, 68);
+ }
+  .details3{
+    background-color:rgb(134, 106, 68) ;
+ }
+ .details4{
+    background-color: rgb(134, 106, 68);
+ }
+ .dd{
+    background-color:rgb(134, 106, 68) ;
+    width:500px;
+ }
+ @keyframes color{
+    0%{
+        color:black;
+        transform: translateY(100px);
+    }
+    100%{
+        background-color:rgb(141, 112, 78);
+        transform:translateY(0px);
+    }
+ }
+ 
+ 
+ @keyframes s{
+    0%{
+        color:black;
+        transform:translateY(100px);
+    }
+    100%{
+        color:rgb(141, 112, 78);
+        tranform:translateY(0px);
+    }
+ }
